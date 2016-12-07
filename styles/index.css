@@ -1,0 +1,31 @@
+header { height: 120px; background-color: #8D6E63; }
+
+#article { display: block; height: auto; padding: 20px; border-bottom: solid 2px black; border-top: solid 2px black;}
+	#article > .bloc {}
+		#article > .bloc > p { font-size: 16px;}
+
+#histoire { display: block; height: auto; padding: 20px; border-bottom: solid 2px black;}
+	#histoire > p { font-size: 16px;}
+
+#createur { display: block; height: auto; padding: 20px; border-bottom: solid 2px black;}
+	#createur > p { font-size: 16px;}
+
+#contact { display: block; height: auto; padding: 20px; border-bottom: solid 2px black;}
+		#contact > form > input { display: block; box-sizing: border-box; height: 40px; margin-bottom: 20px; padding: 0px; border: 1px solid #ccc; background-color: #eaeaea;}
+		#contact > form > input[type=text] { width: 100%; padding: 0px 10px; background-image: url("../img/trav.png");}
+		#contact > form > input[type=email] { width: 100%; padding: 0px 10px; background-image: url("../img/trav.png");}
+		#contact > form > textarea { background-image: url("../img/trav.png"); background-position: center; background-size: 40%; display: block; box-sizing: border-box; width: 100%; min-height: 128px; margin-bottom: 20px; padding: 10px; border: 1px solid #ccc; background-color: #eaeaea; resize: vertical; font-size: 14px;}
+		#contact > form > input[type=submit] { display: inline-block; vertical-align: top; width: calc(100% - 100px); margin-right: 20px; border: none; border-bottom: 4px solid #AED581; cursor: pointer; background-color: #8BC34A; color: #fff;}
+		#contact > form > input[type=reset] { display: inline-block; vertical-align: top; width: 80px; border: none; border: 1px solid #ddd; border-bottom: 4px solid #ddd; cursor: pointer;}
+
+#main_footer { background-color: #8D6E63; text-align: center;}
+	#main_footer > p { color: #eee;}
+	#main_footer > p.follow { padding: 20px 0px; font-size: 16px;}
+	#main_footer > p.sign { padding: 20px 0px; font-size: 16px;}
+	#main_footer > div {}
+		#main_footer > div > a { display: inline-block; vertical-align: top; width: 64px; height: 64px; margin: 0px 20px;}
+			#main_footer > div > a > img { width: 64px;}
+
+.scrollup { width: 70px; height: 70px; position: fixed; bottom: 50px; right: 50px; display: none;  font-size: 20px; text-align: center; line-height: 37px; }
+	.scrollup > img { width: 70px; height: 70px; }
+	.scrollup > img:hover {  }
